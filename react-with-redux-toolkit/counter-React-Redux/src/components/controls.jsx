@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useRef } from 'react';
-import { counterActions } from '../store/slices/counter'
+import { counterActions } from '../store/slices/counter';
 
 const Controls = () => {
     const dispatch = useDispatch();

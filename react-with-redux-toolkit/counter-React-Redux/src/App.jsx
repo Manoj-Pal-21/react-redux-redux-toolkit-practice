@@ -8,15 +8,15 @@ import Controls from "./components/controls";
 function App() {
 
   return (
-      <div className="px-4 py-5 my-5 text-center">
-        <Container>
-          <Header />
-          <div className="col-lg-6 mx-auto">
-            <DisplayCounter />
-            <Controls />
-          </div>
-        </Container>
-      </div>
+    <div className="px-4 py-5 my-5 text-center">
+      <Container>
+        <Header />
+        <div className="col-lg-6 mx-auto">
+          <DisplayCounter />
+          <Controls />
+        </div>
+      </Container>
+    </div>
   )
 }
 
