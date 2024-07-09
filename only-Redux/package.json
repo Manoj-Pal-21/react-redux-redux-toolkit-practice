@@ -1,0 +1,16 @@
+{
+  "name": "only-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redux.js",
+  "scripts": {
+    "start": "nodemon redux.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "redux": "^5.0.1"
+  }
+}
